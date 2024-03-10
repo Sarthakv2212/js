@@ -28,6 +28,8 @@ let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
+
+
 // *********************** Operations ***********************
 
 let value = 3
@@ -37,32 +39,34 @@ let negValue = -value
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
-// console.log(2**3);
+// console.log(2**3); //power
 // console.log(2/3);
-// console.log(2%3);
+// console.log(2%3); //remainder
 
 let str1 = "hello"
 let str2 = " hitesh"
 
-let str3 = str1 + str2
+let str3 = str1 + str2 //iss tarah se string bhi jodi ja sakti hain.
 // console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+
+// COMPLEX SITUATUIONS
+
+// console.log("1" + 2);           =12
+// console.log(1 + "2");           =12
+// console.log("1" + 2 + 2);       =122
+// console.log(1 + 2 + "2");       =32.   //cleared in documentation but in short agar string first toh sab string , par agar number hain starting me toh 
+                                           //sum ho jayenge phir string add hogi uske baad.
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);
-// console.log(+"");
+// console.log(+true);    =1  //no need to do such things just GK.   +ka koi farak nhi padhta.
+// console.log(+"");      =0  //no need to do such things just GK.
 
-let num1, num2, num3
 
-num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
-++gameCounter;
+++gameCounter;   //prefix and postfix i know that.
 console.log(gameCounter);
 
 // link to study
