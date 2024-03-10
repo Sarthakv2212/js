@@ -4,7 +4,8 @@
 
 
 let name = "hitesh" //string
-let age = 18.        //number
+let age = 18        //number
+let age1 = "18" //string 
 let isLoggedIn = false //boolean
 let state;  //undefined
 
