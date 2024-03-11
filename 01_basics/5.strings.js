@@ -14,24 +14,24 @@ const gameName = new String('hitesh-hc-com')
 
 
 // console.log(gameName.length);
-// console.log(gameName.toUpperCase());
-console.log(gameName.charAt(2));
-console.log(gameName.indexOf('t'));
+// console.log(gameName.toUpperCase());      in prototype.
+console.log(gameName.charAt(2));   //to know a character at certain position
+console.log(gameName.indexOf('t'));    // to know index od a character.
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4) //last value is not included.can be seen in output.
 console.log(newString);
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(0, 4) //similar to substring,google the difference.
 console.log(anotherString);
 
 const newStringOne = "   hitesh    "
 console.log(newStringOne);
-console.log(newStringOne.trim());
+console.log(newStringOne.trim());   //removes unwwanted spaces of start and end.
 
-const url = "https://hitesh.com/hitesh%20choudhary"
+const url = "https://hitesh.com/hitesh%20choudhary" //the browser turns spaces into %20.
 
-console.log(url.replace('%20', '-'))
+console.log(url.replace('%20', '-')) //to replace stuff
 
-console.log(url.includes('sundar'))
+console.log(url.includes('sundar')) //pata krne ke liye ki hai ki naahi.
 
-console.log(gameName.split('-'));
+console.log(gameName.split('-')); //splits a string into array on the basis of - as seperators(i.e. mentioned in the brackets)
