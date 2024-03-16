@@ -43,15 +43,17 @@ function loginUserMessage(username ){ //to give a default value we do - function
     return `${username} just logged in` //using string interpolation.
 }
 
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage()) //nothing passes gives undefined.
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
-    return num1
+function calculateCartPrice(val1, val2, ...num1){ //here ... is rest operator which means any no. of arguments will be taken by function.i.e. to pass multiple values in the function.
+    return num1 
 }
 
 // console.log(calculateCartPrice(200, 400, 500, 2000))
+
+//PASSING OBJECT IN A FUNCTION
 
 const user = {
     username: "hitesh",
@@ -61,9 +63,10 @@ const user = {
 function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
 }
+//function call for object
 
-// handleObject(user)
-handleObject({
+// handleObject(user) //example1
+handleObject({ //example2
     username: "sam",
     price: 399
 })
